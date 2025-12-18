@@ -21,7 +21,7 @@ const RecentProjects = () => {
           >
             <PinContainer
               title={item.title}
-              href={item.link}
+              href={item.link ?? undefined}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -67,7 +67,7 @@ const RecentProjects = () => {
                 </div>
 
                 <a
-                  href={item.link}
+                  href={item.link ?? undefined}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 lg:text-xl md:text-xs text-sm text-purple hover:underline cursor-pointer"
