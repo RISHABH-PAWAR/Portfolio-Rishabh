@@ -37,3 +37,16 @@ next-env.d.ts
 
 # Sentry Config File
 .sentryclirc
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+
+# env files
+.env
+.env.*
+!.env.example
+
+# Sentry
+.sentryclirc
+.env.sentry-build-plugin
