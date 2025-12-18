@@ -83,3 +83,9 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}

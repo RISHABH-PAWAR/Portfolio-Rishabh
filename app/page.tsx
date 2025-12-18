@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import { navItems } from "@/data";
 
-const Hero = dynamic(() => import("@/components/Hero"), { ssr: false });
+const Hero = dynamic(() => import("@/components/Hero"));
 const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 const RecentProjects = dynamic(
   () => import("@/components/RecentProjects"),
@@ -28,8 +28,10 @@ const FloatingNav = dynamic(
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
+    <main className="relative bg-black-100 flex flex-col mx-auto max-w-[100vw] overflow-x-hidden sm:px-10 px-5">
+
+      <div className="w-full max-w-7xl mx-auto overflow-x-hidden">
+
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />

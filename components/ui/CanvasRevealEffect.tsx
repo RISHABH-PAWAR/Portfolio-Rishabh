@@ -25,7 +25,7 @@ export function CanvasRevealEffect({
   showGradient?: boolean;
 }) {
   return (
-    <div className={cn("relative h-full w-full bg-white", containerClassName)}>
+    <div className={cn("relative h-full w-full bg-white overflow-hidden max-w-full", containerClassName)}>
       <DotMatrix
         colors={colors}
         dotSize={dotSize}
