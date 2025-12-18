@@ -1,6 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects & Skill", link: "#projects" },
+  { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -114,7 +114,7 @@ export const projects = [
     iconLists: [
       "/re.svg",
       "/tail.svg",
-      "/sentry.png",
+      "/mongodb.webp",
       "/cloudnary.webp",
       "/c.svg",
       "/jwt.webp",
@@ -134,40 +134,41 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Rishabh was a pleasure. Professional, prompt, and deeply committed to quality.",
-    name: "Devansh",
-    title: "Software Developer",
-    image: "/pro1.png",
-  },
-  {
-    quote:
-      "Energy, precision, and creativity. The results were polished and exactly what we envisioned.",
-    name: "Abhinav Singh",
-    title: "SDE @ Infosys",
-    image: "/pro2.jpg",
-  },
-  {
-    quote:
-      "Proactive, reliable, and consistently high-quality work. Highly dependable developer.",
-    name: "Bharat Pawar",
-    title: "Developer @ TCS",
-    image: "/pro3.jpg",
-  },
-  {
-    quote:
-      "Solutions-oriented mindset with strong execution. Goes above and beyond.",
-    name: "Ujjwal Sharma",
-    title: "SDE @ HCL",
-    image: "/pro4.jpg",
-  },
-  {
-    quote:
-      "A rare mix of creativity and precision. Transforms ideas into high-performing solutions.",
-    name: "Ayush Garg",
-    title: "Software Engineer",
-    image: "/pro5.jpg",
-  },
+  quote:
+    "Collaborating with Rishabh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. His enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and strengthen your brand, Rishabh is the ideal partner.",
+  name: "Devansh",
+  title: "Software Developer",
+  image: "/pro1.png",
+},
+{
+  quote:
+    "Rishabh brings energy, precision, and creativity to every project. He’s responsive, professional, and clearly passionate about his work. The results speak for themselves—polished, effective, and exactly what we envisioned.",
+  name: "Abhinav Singh",
+  title: "SDE @ Infosys",
+  image: "/pro2.jpg",
+},
+{
+  quote:
+    "From start to finish, Rishabh demonstrated remarkable dedication and skill. He is proactive, reliable, and consistently produces work of exceptional quality. Anyone looking for a highly capable and dependable developer will benefit greatly from working with him.",
+  name: "Bharat Pawar",
+  title: "Developer @ TCS",
+  image: "/pro3.jpg",
+},
+{
+  quote:
+    "Rishabh’s expertise and creativity made a huge difference in our project. He approaches every challenge with a solutions-oriented mindset and ensures the end result is both functional and visually impressive. Truly a developer who goes above and beyond.",
+  name: "Ujjwal Sharma",
+  title: "SDE @ HCL",
+  image: "/pro4.jpg",
+},
+{
+  quote:
+    "Working with Rishabh was a game-changer. He approaches development with a rare mix of creativity and precision, transforming ideas into smooth, high-performing solutions. His dedication makes the whole process effortless and inspiring.",
+  name: "Ayush Garg",
+  title: "Software Engineer",
+  image: "/pro5.jpg",
+},
+
 ];
 
 export const workExperience = [
