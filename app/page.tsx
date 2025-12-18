@@ -28,7 +28,7 @@ const FloatingNav = dynamic(
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex flex-col mx-auto max-w-[100vw] overflow-x-hidden sm:px-10 px-5">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
 
       <div className="w-full max-w-7xl mx-auto overflow-x-hidden">
 
