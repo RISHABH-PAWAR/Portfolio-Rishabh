@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +38,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Full-stack developer with hands-on experience building scalable web applications using MERN/Next.js. Strong in designing RESTful APIs, managing databases ,Familiar with cloud deployment using Vercel, Render, and foundational AWS services.",
+    title:
+      "Full-stack developer with hands-on experience building scalable web applications using MERN/Next.js. Strong in REST APIs, databases, and cloud deployment (Vercel, Render, AWS basics).",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -46,10 +47,10 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "University Library Management System with industry-standard practices; from rate-limiting, DDoS protection, caching, optimizations, multi-media uploads, complex db queries, and advanced error handling to automated workflows with custom notifications.",
+    title:
+      "University Library Management System with rate-limiting, DDoS protection, caching, optimized DB queries, media uploads, and automated workflows.",
     description: "Currently Working On",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,31 +74,58 @@ export const projects = [
   {
     id: 1,
     title: "Prescripto",
-    des: "Prescripto is a comprehensive web application built with the MERN stack designed to facilitate easy online doctor appointment booking and management. The system empowers patients, doctors, and administrators with distinct roles and capabilities to streamline healthcare appointments, earnings tracking, and platform administration.",
+    des:
+      "MERN-based healthcare platform for doctor appointments, earnings tracking, and admin management.",
     img: "/prescripto.png",
-    iconLists: ["/express.jpg","/re.svg", "/mongodb.webp", "/tail.svg", "/cloudnary.webp", "/c.svg","/jwt.webp"],
+    iconLists: [
+      "/express.jpg",
+      "/re.svg",
+      "/mongodb.webp",
+      "/tail.svg",
+      "/cloudnary.webp",
+      "/c.svg",
+      "/jwt.webp",
+    ],
     link: "https://github.com/RISHABH-PAWAR/Prescripto",
   },
   {
     id: 2,
     title: "Resume Builder",
-    des: "Resume Builder(AI-powered) is a web application built with the MERN stack that allows users to create professional resumes using different customizable templates. The project integrates an AI-enhanced feature to improve and enrich resume content, making it more impactful and tailored to specific job requirements.",
+    des:
+      "AI-powered resume builder using MERN stack with OpenAI integration and customizable templates.",
     img: "/resume-builder.png",
-    iconLists: ["/express.jpg","/re.svg", "/mongodb.webp", "/openai.jpg", "/cloudnary.webp", "/c.svg","/jwt.webp"],
+    iconLists: [
+      "/express.jpg",
+      "/re.svg",
+      "/mongodb.webp",
+      "/openai.jpg",
+      "/cloudnary.webp",
+      "/c.svg",
+      "/jwt.webp",
+    ],
     link: "https://github.com/RISHABH-PAWAR/Resume-Builder",
   },
   {
     id: 3,
     title: "Insider Jobs",
-    des: "Built a full-stack job portal using the MERN stack,Clerk,Cloudinary, Sentry. Designed RESTful APIs for job postings, applications, and role-based access, with MongoDB handling scalable data storage. Integrated Cloudinary for efficient resume and image uploads, and Sentry for real-time error tracking and production monitoring. Deployed the application with a focus on performance, security, and maintainability, simulating real-world hiring workflows.",
+    des:
+      "Full-stack job portal with role-based access, Clerk auth, Cloudinary uploads, and Sentry monitoring.",
     img: "/job-portal.png",
-    iconLists: ["/re.svg", "/tail.svg", "/santry.png", "/cloudnary.webp", "/c.svg","/jwt.webp"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/sentry.png",
+      "/cloudnary.webp",
+      "/c.svg",
+      "/jwt.webp",
+    ],
     link: "https://github.com/RISHABH-PAWAR/job-portal",
   },
   {
     id: 4,
     title: "BookWise",
-    des: " University Library Management System with industry-standard practices; from rate-limiting, DDoS protection, caching, optimizations, multi-media uploads, complex db queries, and advanced error handling to automated workflows with custom notifications.",
+    des:
+      "Advanced library management system with performance, security, and scalability focus.",
     img: "/current-project.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: undefined,
@@ -107,63 +135,64 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Rishabh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Rishabh was a pleasure. Professional, prompt, and deeply committed to quality.",
     name: "Devansh",
     title: "Software Developer",
-    image:"/pro1.png",
-
+    image: "/pro1.png",
   },
   {
     quote:
-      "Rishabh brings energy, precision, and creativity to every project. He’s responsive, professional, and clearly passionate about his work. The results speak for themselves polished, effective, and exactly what we envisioned.",
+      "Energy, precision, and creativity. The results were polished and exactly what we envisioned.",
     name: "Abhinav Singh",
-    title: "SDE@Infosis",
-    image:"/pro2.jpg",
+    title: "SDE @ Infosys",
+    image: "/pro2.jpg",
   },
   {
     quote:
-      "From start to finish, Rishabh demonstrated remarkable dedication and skill. He is proactive, reliable, and consistently produces work of exceptional quality. Anyone looking for a highly capable and dependable developer will benefit greatly from working with him.",
+      "Proactive, reliable, and consistently high-quality work. Highly dependable developer.",
     name: "Bharat Pawar",
-    title: "Developer@TCS",
-    image:"/pro3.jpg",
+    title: "Developer @ TCS",
+    image: "/pro3.jpg",
   },
   {
     quote:
-      "Rishabh’s expertise and creativity made a huge difference in our project. He approaches every challenge with a solutions-oriented mindset and ensures the end result is both functional and visually impressive. Truly a developer who goes above and beyond.",
+      "Solutions-oriented mindset with strong execution. Goes above and beyond.",
     name: "Ujjwal Sharma",
-    title: "SDE@HCL",
-    image:"/pro4.jpg",
+    title: "SDE @ HCL",
+    image: "/pro4.jpg",
   },
   {
     quote:
-      "Working with Rishabh was a game-changer. He approaches development with a rare mix of creativity and precision, transforming ideas into smooth, high-performing solutions. His dedication makes the whole process effortless and inspiring",
+      "A rare mix of creativity and precision. Transforms ideas into high-performing solutions.",
     name: "Ayush Garg",
-    title: "SDE",
-    image:"/pro5.jpg"
+    title: "Software Engineer",
+    image: "/pro5.jpg",
   },
 ];
-
 
 export const workExperience = [
   {
     id: 1,
-    title: "Web Developer (JIL Information Technology Ltd-Intern)",
-    desc: "Built 10+ RESTful APIs for job search, filtering, and application submission functionalities, improving user experience and reducing page load time by 25% through code optimization and caching strategies.",
+    title: "Web Developer Intern — JIL Information Technology Ltd",
+    desc:
+      "Built 10+ RESTful APIs for job search and applications, reducing load time by 25% via caching and optimization.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Full Stack Developer (Brain Mentors Pvt. Ltd-Intern)",
-    desc: "Led development of Team Management System with centralized communication, task tracking, and ML-powered resource allocation using MERN stack, collaborating with cross-functional team of 3+ developers and designers.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Full Stack Developer Intern — Brain Mentors Pvt. Ltd",
+    desc:
+      "Developed a team management system with ML-powered task allocation using MERN stack.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance Dev Project",
-    desc: "Developed a full-stack Project Management Dashboard as a freelance project using Next.js and Tailwind CSS with Material UI Data Grid for advanced data visualization. Implemented Redux Toolkit and RTK Query for efficient state management and API handling. Built a scalable backend using Node.js and Express with PostgreSQL managed via Prisma ORM. Integrated AWS Lambda for serverless execution and AWS Cognito for secure authentication. Focused on performance, scalability, and clean architecture throughout the application.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Full Stack Project",
+    desc:
+      "Built a scalable project management dashboard using Next.js, PostgreSQL, Prisma, Redux Toolkit, AWS Lambda, and Cognito.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
 ];
@@ -176,12 +205,12 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "leetcode1.png",
-    link:"https://leetcode.com/u/Rishabhpawar/",
+    img: "/leetcode1.png",
+    link: "https://leetcode.com/u/Rishabhpawar/",
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/rishabh-pawar-04192b263/",
+    link: "https://www.linkedin.com/in/rishabh-pawar-04192b263/",
   },
 ];
