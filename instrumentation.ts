@@ -1,5 +1,8 @@
 import * as Sentry from "@sentry/nextjs";
 
+// Remove these lines
+// export const onRequestError = Sentry.captureRequestError;
+
 export async function register() {
   if (process.env.NEXT_RUNTIME === "nodejs") {
     await import("./sentry.server.config");
@@ -9,5 +12,3 @@ export async function register() {
     await import("./sentry.edge.config");
   }
 }
-
-export const onRequestError = Sentry.captureRequestError;
