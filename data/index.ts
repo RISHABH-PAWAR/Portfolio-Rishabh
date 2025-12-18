@@ -100,7 +100,7 @@ export const projects = [
     des: " University Library Management System with industry-standard practices; from rate-limiting, DDoS protection, caching, optimizations, multi-media uploads, complex db queries, and advanced error handling to automated workflows with custom notifications.",
     img: "/current-project.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: null,
+    link: undefined,
   },
 ];
 
